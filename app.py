@@ -14,7 +14,7 @@ app.secret_key = os.urandom(24)  # Change this to a fixed secret key in producti
 # Discord OAuth2 configuration
 CLIENT_ID = '1414847487881117746'
 CLIENT_SECRET = '6Gt7sYFShJIJCSUgtkiGBGVFmRiVs1fz'
-REDIRECT_URI = 'https://prussian-blueeel.onpella.app/callback'
+REDIRECT_URI = 'https://swiftauth.vercel.app/callback'
 DISCORD_API_URL = 'https://discord.com/api/v10'
 BOT_TOKEN = 'MTQxNDg0NzQ4Nzg4MTExNzc0Ng.GwxL_4.y8INgEET1i2V9RSC-PsmEalTWhvnk1Aqk1P0vQ'  # For making API requests as your bot
 

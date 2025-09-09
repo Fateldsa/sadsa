@@ -16,7 +16,7 @@ CLIENT_ID = '1414847487881117746'
 CLIENT_SECRET = '6Gt7sYFShJIJCSUgtkiGBGVFmRiVs1fz'
 REDIRECT_URI = 'https://prussian-blueeel.onpella.app/callback'
 DISCORD_API_URL = 'https://discord.com/api/v10'
-BOT_TOKEN = ''  # For making API requests as your bot
+BOT_TOKEN = 'MTQxNDg0NzQ4Nzg4MTExNzc0Ng.G9pgDW.FtrMEyPeZfKJaY9dnaQ_WZVihuOYSvfyo9dwK8'  # For making API requests as your bot
 
 # Token storage file
 TOKEN_FILE = 'tokens.json'

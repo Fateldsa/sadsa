@@ -223,4 +223,4 @@ refresh_thread = threading.Thread(target=refresh_tokens_loop, daemon=True)
 refresh_thread.start()
 
 if __name__ == '__main__':
-    app.run(ssl_context='adhoc', host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)

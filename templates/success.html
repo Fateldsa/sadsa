@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #36393f;
+            color: #fff;
+        }
+        .success {
+            background-color: #43b581;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="success">
+        <h1>Verification Successful!</h1>
+        <p>Welcome, {{ username }} (ID: {{ user_id }})!</p>
+        <p>You can now close this window and return to Discord.</p>
+    </div>
+    <p>Your access token has been stored and will be automatically refreshed.</p>
+</body>
+</html>
